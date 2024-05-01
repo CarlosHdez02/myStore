@@ -1,0 +1,33 @@
+.container {
+    display: grid;
+    grid-template-columns: auto 1fr; /* Adjust grid columns to control image and content layout */
+    gap: 1rem; /* Add gap between grid items */
+    padding-left: 2rem;
+  }
+  
+  .img {
+    width: 268px;
+    height: auto;
+    margin-right: 1rem;
+    padding-top: 1rem;
+  }
+  
+  .productInfo {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center;
+    align-items: flex-start; /* Align items to the start (left) */
+    margin-top: -2rem; /* Adjust margin to move productInfo upwards */
+  }
+  
+  .myButton {
+    background-color: #0CB0FF;
+    width: 22rem;
+    height:2rem;
+    margin-top: 1rem; /* Add margin to the button for spacing */
+  }
+  .productDetail{
+    padding-left:2rem;
+    padding-top:2rem;
+  }
+  

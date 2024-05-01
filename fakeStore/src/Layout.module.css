@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding:0;
+}
+.container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.myButton{
+    width:36px;
+    height:31px;
+  
+}
+
+.myHeader{
+    background-color: rgb(119, 0, 255);
+    width:100vw
+}
+.myInput{
+    width:500px;
+    height:30px;
+    padding-left:1em;
+}
+.svg{
+    width:25px;
+    height:25px;
+}
+.myLogo{
+    padding-top:0.5em;
+    padding-right:0.5em;
+    width:75px;
+    height:45px;
+}

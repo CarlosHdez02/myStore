@@ -1,0 +1,24 @@
+/* ItemsPage.module.css */
+
+.img {
+    width: 50px;
+    height: auto;
+    margin-right: 1rem; /* Add margin to create space between image and text */
+    padding-top:1rem;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Align items to the start (left side) */
+  }
+.myHr{
+    border: none; /* Remove default border */
+  height: 1rem; /* Set the height of the horizontal rule */
+  background-color: red; /* Set the background color */
+  margin: 2rem 0; 
+}
+.myArticles{
+    display:grid;
+    gap:1rem;
+}
